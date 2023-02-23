@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    /* background-color: aquamarine; */
+    height: 60px;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header--logo {
+    display: flex;
+}
+
+.logo--form {
+    display: flex;
+}
+
+.img--logo {
+    margin-left: 30px;
+    color: red;
+}
+
+
+
+
+.header--search {
+    place-self: center;
+    display: flex;
+}
+
+.search--form {
+    display: flex;
+}
+
+.button--search {
+    background-color: rgb(240, 238, 238);
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid gray;
+    width: 40px;
+    color: gray;
+}
+
+.search--form .header--input {
+    display: block;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid gray;
+}
+
+.button--micro {
+    border-radius: 100%;
+    width: 40px;
+    margin-left: 10px;
+    border: none;
+}
+
+
+
+
+.button--profile {
+    margin: 0 10px 0 10px;
+}
+
+
+
+
+
+
+
+aside {
+    /* background-color: antiquewhite; */
+    width: 10%;
+    height: 100vh;
+}
+
+.aside--list {
+    margin-top: 20px;
+}
+
+.item--list {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list--link {
+    margin: 20px;
+}
+
+
+
+
+main {
+    position: absolute;
+    top: 60px;
+    width: 90%;
+    height: 100vh;
+    right: 0;
+}
+
+.likes--list {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.item--like {
+    margin: 5px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 8px;
+    width: auto;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.item--like:first-child {
+    background-color: black;
+    color: white;
+}
+
+
+/*Details for Video*/
+
+.main--videos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container--video {
+    /* background-color: aqua; */
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.img--video {
+    border-radius: 15px;
+    width: 300px;
+    height: 170px;
+}
+
+.title--video {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    color: rgb(67, 67, 68);
+}
+
+.img--title {
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.details--video p {
+    text-align: center;
+    margin: 5px;
+    font-size: 12px;
+    color: gray;
+}
